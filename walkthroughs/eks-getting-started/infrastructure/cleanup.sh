@@ -12,7 +12,7 @@ kubectl delete virtualrouter yelb-appserver -n yelb
 echo "Deleting the App Mesh virtual nodes"
 kubectl delete virtualnode redis-server -n yelb
 kubectl delete virtualnode yelb-appserver -n yelb
-kubectl delete virtualnode yelb-appserver-v2 -n yelb
+# kubectl delete virtualnode yelb-appserver-v2 -n yelb
 kubectl delete virtualnode yelb-db -n yelb
 kubectl delete virtualnode yelb-ui -n yelb
 
